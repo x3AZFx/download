@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="display: flex;">
+    <div>
+        <p>20</p>
+    </div>
+    <h1><a href="#" download="">رابط التحميل</a></h1>
+
+
+    <style>
+        body{
+            
+        }
+        
+        a{
+            text-decoration:none;
+            color:#fff !important;
+
+        }
+        h1{
+            background-color : #080;
+            padding:10px;
+            border-radius:10px;
+            color:#fff !important;
+            opacity:0;
+            display:none;
+        }
+        .add{
+            opacity:1;
+        transition: .5s ease-in-out;
+        display:block;
+        }
+        body{
+            justify-content: center;
+            align-items: center;
+            height:100vh;
+        }
+        div{
+          border: 5px solid;
+          border-image-source: linear-gradient(to left, #743ad5, #d53a9d);
+            padding:20px;
+            width:50px;
+            height:50px;
+            border-radius:50%;
+            transition:.5s ease-in-out;
+        }
+     div p {
+         text-align: center;
+         font-family: fantasy;
+         color:#fff;
+     }
+     .diva{
+         display:none;
+     }
+    </style>
+    <script>
+        let div = document.querySelector('div p');
+        let div1 = document.querySelector('div');
+        let h1 = document.querySelector('h1');
+        console.log(div)
+        let p = document.querySelector('p');
+
+        window.addEventListener('load',()=>{
+            document.bgColor = '#222'
+             div1.style.transform = 'rotate(270deg)'
+            
+            setTimeout(()=>{
+         p.innerHTML = '19'
+         div1.style.transform = 'rotate(280deg)'
+
+            },1000)
+            setTimeout(()=>{
+         p.innerHTML = '18'
+         div1.style.transform = 'rotate(290deg)'
+
+            },2000)
+            setTimeout(()=>{
+         p.innerHTML = '17'
+         div1.style.transform = 'rotate(300deg)'
+
+            },3000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(310deg)'
+         p.innerHTML = '16'
+         div1.style.transform = 'rotate(320deg)'
+
+            },4000)
+            setTimeout(()=>{
+         p.innerHTML = '15'
+         div1.style.transform = 'rotate(330deg)'
+
+            },6000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(340deg)'
+         p.innerHTML = '14'
+            },7000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(350deg)'
+
+         p.innerHTML = '13'
+            },8000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(360deg)'
+
+         p.innerHTML = '12'
+         div1.style.transform = 'rotate(270deg)'
+            },9000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(280deg)'
+         p.innerHTML = '11'
+            },10000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(290deg)'
+         p.innerHTML = '10'
+            },11000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(300deg)'
+         p.innerHTML = '09'
+            },12000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(310deg)'
+
+         p.innerHTML = '08'
+            },13000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(320deg)'
+         p.innerHTML = '07'
+            },14000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(330deg)'
+
+         p.innerHTML = '06'
+            },15000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(340deg)'
+         p.innerHTML = '05'
+            },16000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(350deg)'
+         p.innerHTML = '04'
+            },17000)
+            setTimeout(()=>{
+                div1.style.transform = 'rotate(360deg)'
+         p.innerHTML = '03'
+            },18000)
+            setTimeout(()=>{
+         p.innerHTML = '02'
+            },19000)
+            setTimeout(()=>{
+         p.textContent = '01'
+            },20000)
+            setTimeout(()=>{
+         p.innerHTML = 'تم'
+        h1.classList.add('add')
+        div1.style.display = 'none'
+            },21000)
+
+        })
+
+        h1.onclick=$=>{
+            h1.style.display = 'none'
+        
+        }
+    </script>
+</body>
+
+</html>
